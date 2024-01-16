@@ -1,0 +1,19 @@
+1. To use the weka API you need to install Weka 3.9.5 according to your operating system
+2. After downloading the archive and extracting it you’ll find the weka.jar file. The JAR file contains all the class files required i.e. weka API
+3. You need to add this jar as a classpath to JDK. 
+
+I use Eclipse IDE for Java Developers - 2021-09.
+
+In Eclipse:
+1. Create a new java project as WRD_Project and a new java class as WRD_Ensemble_Class
+2. Right-click on your project in the Package Explorer
+3. select "Build Path" → "Configure Build Path". In the "Libraries" tab click on the "Class Path", then click on the "Add External JARs" button and finally select weka.jar file
+4. Now copy the code provided in WRD_Ensemble_CKD_Code file to run it.
+
+
+Sysetm Requiements: 
+
+Windows 10
+64 bit OS
+4 GB RAM
+
